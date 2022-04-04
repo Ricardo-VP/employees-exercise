@@ -11,6 +11,7 @@ Employees Schedules App
 * [Folder Structure](#folder-structure)
 * [Prerrequisites](#prerrequisites)
 * [How to run the app](#how-to-run-the-app)
+* [How to edit the employees list](#how-to-edit-the-employees-list)
 * [Documentation with Java Docs](#documentation-with-java-docs)
 * [Examples](#examples)
 
@@ -40,10 +41,10 @@ For this project, the object-oriented programming paradigm has been used. Theref
 ## Folder Structure
 
     .
-    ├── .idea                   # IntelliJ Idea (IDE) files
-    ├── docs                    # Documentation files 
-    ├── lib                     # Library files
-    ├── src                     # Source files
+    ├── .idea                       # IntelliJ Idea (IDE) files
+    ├── docs                        # Documentation files 
+    ├── lib                         # Library files
+    ├── src                         # Source files
     
 ## Prerrequisites
 * Integrated Development Environment for Java (IDE) - I recommend IntelliJ Idea or Eclipse
@@ -56,6 +57,17 @@ As I mentioned in the prerequisites section, to run this application you need an
 
 ![image](https://user-images.githubusercontent.com/71697096/161493794-bf12b104-6c85-426f-87d4-9c021e6feeb4.png)
 
+## How to edit the employees list
+To modify the list of employees you can access the "src" folder and modify the file "employees-list.txt".
+
+    .
+        ├── ...                   
+        ├── src
+            ├── ...                
+            └── employees-list.txt      # Edit it
+        ├── ...                    
+        ├── ... 
+
 ## Documentation with Java Docs
 If you are interested in seeing the documentation made for this project with JavaDocs you can open the file "index.html" from the "docs" folder.
 
@@ -63,7 +75,7 @@ If you are interested in seeing the documentation made for this project with Jav
         ├── ...                   
         ├── docs
             ├── ...                
-            └── index.html      # Open it in any browser
+            └── index.html          # Open it in any browser
         ├── ...                    
         ├── ...                   
 
