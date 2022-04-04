@@ -1,4 +1,5 @@
-# Employees Schedules App
+Employees Schedules App
+============================
 
 ## Table of contents
 * [About the exercise of the app](#about)
@@ -41,14 +42,15 @@ For this project, the object-oriented programming paradigm has been used. Theref
     ├── docs                    # Documentation files 
     ├── lib                     # Library files
     ├── src                     # Source files
-    ├── employees-list.txt      # Text file with the list of employees. You can edit it!
     
 ## Prerrequisites
 * Integrated Development Environment for Java (IDE) - I recommend IntelliJ Idea or Eclipse
 * Java Development Kit (SDK) - I recommend Azul Zulu (Version 18)
 
 ## How to run the app
-As I mentioned in the prerequisites section, to run this application you need an IDE for Java and a Java SDK for version 18.
+As I mentioned in the prerequisites section, to run this application you need an IDE for Java and a JDK for version 18 of Java.
+Once you have cloned the project all that remains is to run the App.java file located in the source folder.
+
 
 
 ## Examples
