@@ -1,3 +1,5 @@
+<a href="https://www.linkedin.com/in/ricardo-vaca-pe%C3%B1a-6770721b4/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+
 Employees Schedules App
 ============================
 
@@ -16,7 +18,11 @@ Employees Schedules App
 
 The goal of this exercise is to output a table containing pairs of employees and how often they have coincided in the office.
 
-Input: the name of an employee and the schedule they worked, indicating the time and hours. This should be a .txt file with at least five sets of data. You can include the data from our examples below:
+## Technologies
+* [Azul Zulu - Version 18](https://www.azul.com/downloads/?package=jdk#download-openjdk)
+* [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/download/#section=windows)
+* Java Docs
+* JUnit
 
 ## Methodology
 
@@ -30,12 +36,6 @@ For this project I used MVC architecture. But since it is a console application,
 
 ### Object Oriented Programming
 For this project, the object-oriented programming paradigm has been used. Therefore, you will find the use of classes, objects, getters and setters, etc.
-
-## Technologies
-* [Azul Zulu - Version 18](https://www.azul.com/downloads/?package=jdk#download-openjdk)
-* [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/download/#section=windows)
-* Java Docs
-* JUnit
 
 ## Folder Structure
 
