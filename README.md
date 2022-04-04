@@ -9,6 +9,7 @@ Employees Schedules App
 * [Folder Structure](#folder-structure)
 * [Prerrequisites](#prerrequisites)
 * [How to run the app](#how-to-run-the-app)
+* [Documentation with Java Docs](#documentation)
 * [Examples](#examples)
 
 ## About the exercise of the app
@@ -55,6 +56,16 @@ As I mentioned in the prerequisites section, to run this application you need an
 
 ![image](https://user-images.githubusercontent.com/71697096/161493794-bf12b104-6c85-426f-87d4-9c021e6feeb4.png)
 
+## Documentation with Java Docs
+If you are interested in seeing the documentation made for this project with JavaDocs you can open the file "index.html" from the "docs" folder.
+
+    .
+        ├── ...                   
+        ├── docs
+            ├── ...                
+            └── index.html      # Open it in any browser
+        ├── ...                    
+        ├── ...                   
 
 ## Examples
 ### Example 1:
