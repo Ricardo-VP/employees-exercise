@@ -78,9 +78,11 @@ public class EmployeesController {
      * their schedules coincide will be returned through a console message.
      *
      * @param listOfEmployees : List with employees.
+     * @return result : The result of the execution
      */
-    public static void compareEmployeesSchedules(ArrayList<Employee> listOfEmployees) {
+    public static String compareEmployeesSchedules(ArrayList<Employee> listOfEmployees) {
         int numberOfMatchesOfTimeFrames = 0;
+        String result = "";
         for (int i = 0; i < listOfEmployees.size(); i++) {
             for (int j = i + 1; j < listOfEmployees.size(); j++) {
                 Employee employeeOne = listOfEmployees.get(i);
@@ -91,10 +93,12 @@ public class EmployeesController {
                             numberOfMatchesOfTimeFrames++;
                     }
                 }
-                System.out.println(employeeOne.getName() + "-" + employeeTwo.getName() + "=" + numberOfMatchesOfTimeFrames);
+                result = employeeOne.getName() + "-" + employeeTwo.getName() + "=" + numberOfMatchesOfTimeFrames;
                 numberOfMatchesOfTimeFrames = 0;
             }
         }
+        System.out.println(result);
+        return result;
     }
 
     /**
