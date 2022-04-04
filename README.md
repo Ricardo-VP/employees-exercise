@@ -11,7 +11,7 @@ Employees Schedules App
 * [Folder Structure](#folder-structure)
 * [Prerrequisites](#prerrequisites)
 * [How to run the app](#how-to-run-the-app)
-* [Documentation with Java Docs](#documentation)
+* [Documentation with Java Docs](#documentation-with-java-docs)
 * [Examples](#examples)
 
 ## About the exercise of the app
