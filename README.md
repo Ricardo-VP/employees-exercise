@@ -34,6 +34,7 @@ For this project, the object-oriented programming paradigm has been used. Theref
 * [Azul Zulu - Version 18](https://www.azul.com/downloads/?package=jdk#download-openjdk)
 * [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/download/#section=windows)
 * Java Docs
+* JUnit
 
 ## Folder Structure
 
