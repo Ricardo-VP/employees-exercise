@@ -5,6 +5,8 @@ import models.TimeFrame;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,7 +27,8 @@ public class EmployeesController {
      * Method that initializes the app.
      */
     public static void start() {
-        readEmployeesTextFile(listOfEmployees);
+        String fileNameToOpen = "employees-list.txt";
+        readEmployeesTextFile(listOfEmployees, fileNameToOpen);
         compareEmployeesSchedules(listOfEmployees);
     }
 
@@ -35,9 +38,10 @@ public class EmployeesController {
      *
      * @param listOfEmployees : ArrayList of Employee class objects.
      */
-    public static void readEmployeesTextFile(ArrayList<Employee> listOfEmployees) {
+    public static void readEmployeesTextFile(ArrayList<Employee> listOfEmployees, String fileNameToOpen) {
         try {
-            File employees = new File("employees-list.txt");
+            Path rootDir = Paths.get(".").normalize().toAbsolutePath();
+            File employees = new File(rootDir.toString() + "/src/" + fileNameToOpen);
             Scanner fileReader = new Scanner(employees);
             while (fileReader.hasNextLine()) {
                 String employee = fileReader.nextLine();
