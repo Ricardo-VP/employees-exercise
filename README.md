@@ -8,7 +8,7 @@ Employees Schedules App
 * [Architecture](#architecture)
 * [Folder Structure](#folder-structure)
 * [Prerrequisites](#prerrequisites)
-* [How to run the app](#how-to-run)
+* [How to run the app](#how-to-run-the-app)
 * [Examples](#examples)
 
 ## About the exercise of the app
@@ -34,6 +34,7 @@ For this project, the object-oriented programming paradigm has been used. Theref
 * [Azul Zulu - Version 18](https://www.azul.com/downloads/?package=jdk#download-openjdk)
 * [IntelliJ Idea](https://www.jetbrains.com/es-es/idea/download/#section=windows)
 * Java Docs
+* JUnit
 
 ## Folder Structure
 
@@ -45,12 +46,14 @@ For this project, the object-oriented programming paradigm has been used. Theref
     
 ## Prerrequisites
 * Integrated Development Environment for Java (IDE) - I recommend IntelliJ Idea or Eclipse
-* Java Development Kit (SDK) - I recommend Azul Zulu (Version 18)
+* Java Development Kit (JDK) - I recommend Azul Zulu (Version 18)
 
 ## How to run the app
 As I mentioned in the prerequisites section, to run this application you need an IDE for Java and a JDK for version 18 of Java.
-Once you have cloned the project all that remains is to run the App.java file located in the source folder.
+<br/>
+<b>Once you have cloned the project and opened your IDE all that remains is to run the App.java file located in the "/src/main/" folder.</b>
 
+![image](https://user-images.githubusercontent.com/71697096/161493794-bf12b104-6c85-426f-87d4-9c021e6feeb4.png)
 
 
 ## Examples
